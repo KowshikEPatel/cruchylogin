@@ -7,7 +7,7 @@ import styles from '../styles/Login.module.css';
 export default function Login() {
     return (<>
         <Topbar/>
-        <div class='container mt-3'>
+        <div className='container mt-3'>
             <Card className={styles.card}>
                 <Card.Title className={styles.cardtitle}>Welcome back!!!</Card.Title>
                 <Form className="m-3">
